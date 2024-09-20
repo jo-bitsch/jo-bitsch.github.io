@@ -1,0 +1,43 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.jo_bitsch.aoa_control.debug",
+    "sha256_cert_fingerprints":
+    ["2B:41:00:DE:FD:DF:A6:F6:19:B7:83:F9:78:0E:0B:7C:A9:3B:B5:ED:F9:FD:61:3D:A1:BA:1F:58:EE:7C:98:F0"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.jo_bitsch.aoa_control",
+    "sha256_cert_fingerprints":
+    ["64:92:E3:54:74:F1:6F:BA:B3:3C:24:06:3A:00:E9:EB:57:BE:17:56:A3:78:FA:8C:75:4F:35:04:22:92:6D:9C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://code.xn--j-vga.de"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.jo_bitsch.aoa_control.debug",
+    "sha256_cert_fingerprints":
+    ["2B:41:00:DE:FD:DF:A6:F6:19:B7:83:F9:78:0E:0B:7C:A9:3B:B5:ED:F9:FD:61:3D:A1:BA:1F:58:EE:7C:98:F0"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.jo_bitsch.aoa_control",
+    "sha256_cert_fingerprints":
+    ["64:92:E3:54:74:F1:6F:BA:B3:3C:24:06:3A:00:E9:EB:57:BE:17:56:A3:78:FA:8C:75:4F:35:04:22:92:6D:9C"]
+  }
+}]
